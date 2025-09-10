@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5c542;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+  }
+  .hero img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .hero-content {
+    max-width: 400px;
+    margin-left: 2rem;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .hero-content p {
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+  .btn:hover {
+    background: black;
+    color: white;
+  }
+  .about {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #f4f4f4;
+  }
+  .about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+  }
+  .feature-box {
+    flex: 1 1 250px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  .orange { background: #f39c12; }
+  .green { background: #27ae60; }
+  .blue { background: #2980b9; }
+</style>
+
+<section class="hero">
+  <img src="{{ '/assets/images/hero.jpg' | relative_url }}" alt="Consulting">
+  <div class="hero-content">
+    <h1>ISO/IEC 42001 Consulting</h1>
+    <p>We help businesses implement AI Management Systems in compliance with ISO/IEC 42001. Build trust, reduce risks, and stay ahead with certified AI processes.</p>
+    <a href="#contact" class="btn">Read More</a>
+  </div>
+</section>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>We guide organizations through the ISO/IEC 42001 certification process, ensuring compliance, transparency, and competitive advantage.</p>
+  <a href="#contact" class="btn">Read More</a>
+</section>
+
+<section class="features">
+  <div class="feature-box orange">
+    Risk Reduction<br><small>Minimize AI risks with structured management.</small>
+  </div>
+  <div class="feature-box green">
+    Compliance<br><small>Meet ISO/IEC 42001 and AI Act requirements.</small>
+  </div>
+  <div class="feature-box blue">
+    Trust<br><small>Increase credibility with clients and partners.</small>
+  </div>
+</section>
