@@ -46,7 +46,7 @@ layout: default
     flex-wrap: wrap;
   }
   .hero img {
-    max-width: 400px;
+    max-width: 600px;
     width: 100%;
     border-radius: 12px;
   }
@@ -67,22 +67,22 @@ layout: default
   .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
-    background: #f39c12;
+    background: #004080;
     border: none;
-    color: white;
+    color: white !important;
     font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
     transition: all 0.2s ease;
   }
   .btn:hover {
-    background: #d98200;
+    background: #01376e;
   }
 
   /* About Section */
   .about {
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 3rem 10rem;
     background: #f4f6f9;
   }
   .about h2 {
@@ -117,7 +117,7 @@ layout: default
 
   /* Contact Section */
   .contact {
-    background: #1a2a6c;
+    background: #004080;
     color: white;
     padding: 3rem 2rem;
     text-align: center;
@@ -175,7 +175,7 @@ layout: default
 
 <!-- Existing Hero Section -->
 <section class="hero">
-  <img src="{{ '/assets/images/hero.jpg' | relative_url }}" alt="Consulting">
+  <img src="{{ '/assets/images/42001consulting.png' | relative_url }}" alt="Consulting">
   <div class="hero-content">
     <h1>ISO/IEC 42001 Consulting</h1>
     <p>We help businesses implement AI Management Systems in compliance with ISO/IEC 42001. Build trust, reduce risks, and stay ahead with certified AI processes.</p>
@@ -183,37 +183,45 @@ layout: default
   </div>
 </section>
 
-<section class="about">
-  <h2>About Us</h2>
-  <p>
-    We are pioneers in the field of AI governance and compliance.  
-    Our team is led by some of the very first globally certified 
-    <strong>ISO/IEC 42001 Lead Implementers</strong>, bringing unmatched 
-    expertise to guide organizations in aligning their AI systems 
-    with international best practices.  
-  </p>
-  <p>
-    By combining deep technical knowledge with regulatory insight, 
-    we help businesses not only achieve certification but also build 
-    <strong>trustworthy, transparent, and competitive AI products</strong>.
-  </p>
-</section>
+<div style="text-align: center;">
+  <h2>Why Choose 42001consulting?</h2>
+</div>
 
 <section class="features">
-    <h2>About Us</h2>
-    <div class="feature-box">
-        <h3>Risk Reduction</h3>
-        <p>Minimize AI risks with structured management and governance.</p>
-    </div>
-    <div class="feature-box">
-        <h3>Compliance</h3>
-        <p>Meet ISO/IEC 42001 and AI Act requirements with ease.</p>
-    </div>
-    <div class="feature-box">
-        <h3>Trust</h3>
-        <p>Increase credibility with clients, regulators, and partners.</p>
-    </div>
+  <div class="feature-box">
+      <h3>Global Pioneers</h3>
+      <p>Among the first certified ISO/IEC 42001 Lead Implementers worldwide, bringing unmatched expertise to your organization.</p>
+  </div>
+  
+  <div class="feature-box">
+      <h3>Risk & Compliance</h3>
+      <p>Align with ISO/IEC 42001 and the EU AI Act while reducing operational, legal, and reputational risks.</p>
+  </div>
+  
+  <div class="feature-box">
+      <h3>Trust & Advantage</h3>
+      <p>Demonstrate transparency and reliability, strengthening client, regulator, and partner confidence while gaining a competitive edge.</p>
+  </div>
+
 </section>
+<section class="features" style="padding-top: 0px;">
+
+  <div class="feature-box">
+    <h3>Strategic Guidance</h3>
+    <p>We translate complex ISO/IEC 42001 requirements into actionable steps tailored to your business model.</p>
+  </div>
+
+  <div class="feature-box">
+      <h3>Operational Efficiency</h3>
+      <p>Streamline AI governance processes, saving time and resources while maintaining compliance and control.</p>
+  </div>
+
+  <div class="feature-box">
+      <h3>Learning Courses</h3>
+      <p>Custom training programs for managers and employees to build practical skills in AI governance and ISO/IEC 42001 compliance.</p>
+  </div>
+</section>
+
 
 <section id="contact" class="contact">
   <h2>Book a Consultation</h2>
@@ -232,4 +240,22 @@ layout: default
 
     <button type="submit">Send Request</button>
   </form>
+</section>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    We are pioneers in the field of AI governance and compliance.
+  </p>
+  <p>
+    Our team is led by some of the very first globally certified 
+    <strong>ISO/IEC 42001 Lead Implementers</strong>, bringing unmatched 
+    expertise to guide organizations in aligning their AI systems 
+    with international best practices.  
+  </p>
+  <p>
+    By combining deep technical knowledge with regulatory insight, 
+    we help businesses not only achieve certification but also build 
+    <strong>trustworthy, transparent, and competitive AI products</strong>.
+  </p>
 </section>
